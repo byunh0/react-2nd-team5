@@ -3,8 +3,7 @@
     height:450px;
     cursor:pointer;
     transition:0.5s;
-    border-radius:25px; 
-   
+    border-radius: 25px;
 
 }
 .slidercard_url:hover{
@@ -44,10 +43,10 @@
     
 }
 
-.card_img{
+.card_img_innewsldiercard{
     width:auto;
     height:75%;
-    border-radius:25px;
+    border-radius: 25px 25x 0 0;
 }
 
 /* .card_text{
@@ -75,7 +74,7 @@ align-self:flex-end;
 
 } */
 
-@media (orientation:portrait){
+@media (max-width: 767px){
     .slidercard_url{
         width: auto;
         height:330px;
